@@ -84,7 +84,8 @@ export default function LiveScoreCard() {
   `;
 
   return (
-    <div className="w-[800px] rounded-md bg-[#2D0000] text-white px-4 py-5 mx-auto">
+   <div className="w-full overflow-x-auto">
+    <div className="w-[800px] mx-auto rounded-md bg-[#2D0000] text-white px-4 py-5">
       <div>
         <div className="space-y-6">
 
@@ -208,5 +209,6 @@ export default function LiveScoreCard() {
         </div>
       </div>
     </div>
+        </div>
   );
 }
